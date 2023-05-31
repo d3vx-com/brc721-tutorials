@@ -154,8 +154,8 @@ export default function Inscribe() {
             <a href="https://ordinalsafe.xyz/" target="_blank">
               OrdinalSafe wallet
             </a>{" "}
-            with 25-30$. It is the only wallet that supports BRC-721 at this
-            time.
+            with  atleast 40000 SATS (0.0004BTC) It is the only wallet that supports BRC-721 at this
+            moment, more intergrations are in the pipeline.
           </li>
 
           <li>
@@ -171,7 +171,7 @@ export default function Inscribe() {
             />
           </li>
           <li>
-            Press <strong>Edit</strong>, and then copy and save your keys in
+            Press <strong>Edit</strong>, and then copy and save your keys to
             secure storage. You will need them later to issue new tokens.
           </li>
 
@@ -193,9 +193,9 @@ export default function Inscribe() {
       <section>
         <h2>Inscribing collection</h2>
         <p>
-          As was mentioned above, the collection manifest serves as the single
-          source of truth for the collection. Its immutable characteristic
-          implies that once it&#39;s established, alterations are not possible.
+          As previously highlighted, the collection manifest operates as the 
+          single source of truth for the collection. Its immutable nature signifies 
+          that it can&#39;t be modified once it has been created.
         </p>
         <p>
           The image below shows that we have declared a collection with the OG
@@ -208,10 +208,9 @@ export default function Inscribe() {
           to avoid duplicates.
         </b>{" "}
         <p>
-          You might notice that we&#39;ve intentionally left the max block
-          height field vacant. This strategy is particularly beneficial for open
-          edition collections, where a maximum supply isn&#39;t defined but a
-          time constraint is in place.
+        We have deliberately left the maximum block height field unfilled. 
+        This method is suitable for open edition collections, where a defined 
+        maximum supply is absent, but a time constraint exists.
         </p>
         <p>
           The <strong>Signer Public Key</strong> field was populated
@@ -276,7 +275,7 @@ export default function Inscribe() {
         />
         <p>
           <strong>
-            Congratulations! You just inscribed your first BRC721 collection!
+            Congratulations! You inscribed your first BRC721 collection!
           </strong>{" "}
           But let&apos;s keep going. Currently, the collection is empty. It
           doesn&apos;t have any tokens or metadata.
@@ -286,10 +285,10 @@ export default function Inscribe() {
       <section>
         <h2>Inscribing metadata</h2>
         <p>
-          Before allowing people to inscribe tokens, we want to show the
-          metadata placeholder. Then when the mint is finished and all tokens
-          are sold out, we want to switch it to the proper metadata with
-          attributes.
+        Before users are allowed to mint tokens, we would like to display a placeholder 
+        for the token&apos;s metadata. Once the minting process is completed and all tokens 
+        have been purchased, we will replace this placeholder with the actual metadata, 
+        including various attributes. 
         </p>
 
         <p>
@@ -299,7 +298,7 @@ export default function Inscribe() {
             https://brc721.com/api/og/1
           </a>
           . After the mint, we will use the same endpoint to switch placeholder
-          metadata to real metadata so we don&apos;t have to inscribe a new
+          metadata to the real metadata so we don&apos;t have to inscribe a new
           reveal manifest.
         </p>
 
@@ -412,23 +411,22 @@ export default function Inscribe() {
         />
 
         <p>
-          For public mint, you don&apos;t want to inscribe youself but{" "}
-          <strong>Download</strong>&nbsp; the inscription file and share it with
-          your community.
+          For public mint, you don&apos;t want to inscribe youself but{" "} instead 
+          <strong> Download</strong>&nbsp;the inscription file and share it with
+          your community or submit it to a BRC721 community marketplace.
         </p>
 
         <p>
-          Then people can inscribe via our{" "}
+          Allowing people to inscribe via our{" "}
           <a href="https://www.brc721.com/inscribe" target="_blank">
             Inscribe
           </a>{" "}
-          page or you can build your personal mint website. This tutorial has a
-          minting button at the end, and will be open-sourced so that you can
-          use this code as a starting point.
+          page or you can build your personal mint website. We plan to opensource a
+          minting button so that you can use this code as a starting point.
         </p>
 
         <p>
-          In the screenshot below, we connected the wallet, added the
+          In the screenshot below, we have connected the wallet, added the
           inscription file, and clicked the <strong>Inscribe</strong> button. As
           you can see, we need to send the token&apos;s price when inscribing
           it.
@@ -441,16 +439,21 @@ export default function Inscribe() {
 
         <p>
           <strong>
-            And this is it! Congratulations! <br />
+            This is it! Congratulations! <br />
             You now know how to create collections, inscribe metadata, and mint
-            tokens!
+            your own collection tokens!
           </strong>{" "}
         </p>
 
         <p>
           {" "}
-          We extend our best wishes for the success of your project and eagerly
-          anticipate the innovative creations you will build using our protocol.
+          We are excited for the success of your project and eagerly
+          anticipate the innovative creations you will build using our protocol. Please join us in our {" "}
+          <a href="https://discord.com/invite/brc721" target="_blank">
+            Discord
+          </a>{" "}
+          discord to discuss 
+          the project in greater detail 
         </p>
       </section>
 
