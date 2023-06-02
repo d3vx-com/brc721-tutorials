@@ -395,12 +395,12 @@ export default function Inscribe() {
             Remember that it won&apos;t be possible to pause the public mint.
           </strong>{" "}
           It will end when all the supply is minted. All new inscriptions after
-          that won&apos;t be a part of the collection.
+          that will not be part of the collection.
         </p>
 
         <p>
           In those cases, you will have to make a manual refund, we are working
-          on a script to fromulate a refund transaction so you can make all
+          on a script to fromulate and refund transaction so you can make all
           refunds in a few clicks.
         </p>
 
@@ -439,7 +439,7 @@ export default function Inscribe() {
 
         <p>
           <strong>
-            This is it! Congratulations! <br />
+            This is it, Congratulations! <br />
             You now know how to create collections, inscribe metadata, and mint
             your own collection tokens!
           </strong>{" "}
@@ -452,9 +452,10 @@ export default function Inscribe() {
           <a href="https://discord.com/invite/brc721" target="_blank">
             Discord
           </a>{" "}
-          discord to discuss 
-          the project in greater detail 
+          to discuss the project in greater detail. 
         </p>
+
+        <a className="text-xs" href="/terms">Terms of Service</a>
       </section>
 
       <section id="mint">
