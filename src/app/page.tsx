@@ -438,22 +438,23 @@ export default function Inscribe() {
         />
 
         <p>
-          <strong>
-            This is it, Congratulations! <br />
-            You now know how to create collections, inscribe metadata, and mint
-            your own collection tokens!
-          </strong>{" "}
+            <strong>
+                This is it! Congratulations! <br />
+                You now know how to create collections, inscribe metadata, and mint
+                your own collection tokens!
+            </strong>{" "}
         </p>
 
         <p>
-          {" "}
-          We are excited for the success of your project and eagerly
-          anticipate the innovative creations you will build using our protocol. Please join us in our {" "}
-          <a href="https://discord.com/invite/brc721" target="_blank">
-            Discord
-          </a>{" "}
-          to discuss the project in greater detail. 
+            {" "}
+            We are excited for the success of your project and eagerly
+            anticipate the innovative creations you will build using our protocol. Please join us in our {" "}
+            <a href="https://discord.com/invite/brc721" target="_blank">
+                Discord
+            </a>{" "}
+            to discuss the project in greater detail. 
         </p>
+
 
         <a className="text-xs" href="/terms">Terms of Service</a>
       </section>
