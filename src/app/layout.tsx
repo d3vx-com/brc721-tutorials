@@ -56,14 +56,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Providers>
-        <body className="container max-w-4xl px-6 py-16 mx-auto">
+      <body className="container max-w-4xl px-6 py-16 mx-auto">
+        <Providers>
           <h1>BRC-721: Creating your first collection</h1>
           <main>{children}</main>
-        </body>
 
-        <Analytics />
-      </Providers>
+          <Analytics />
+        </Providers>
+      </body>
     </html>
   );
 }
