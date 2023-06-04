@@ -56,7 +56,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="container max-w-4xl px-6 py-16 mx-auto">
+      <body className="container max-w-4xl px-6 py-16 mx-auto dark:bg-neutral-800 dark:text-white">
         <Providers>
           <h1>BRC-721: Creating your first collection</h1>
           <main>{children}</main>
